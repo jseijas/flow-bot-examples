@@ -1,0 +1,48 @@
+[
+  {
+    "name": "hello",
+    "type": "text",
+    "text": "Hello... I'm a decision bot."
+  },
+  {
+    "name": "goodbye",
+    "type": "text",
+    "text": "Goodbye until next time..."  
+  },
+  {
+     "name": "flipCoin",
+     "type": "prompt",
+     "prompt": "choice",
+     "text": "Choose heads or tails",
+     "listStyle": "none",
+     "options": "heads|tails",
+     "variable": "dialog.coin"
+  },
+  {
+     "name": "rollDice",
+     "type": "text",
+     "prompt": "number",
+     "text": "How many dice should I roll?",
+     "variable": "dialog.dices"
+  },
+  {
+     "name": "magicBall",
+     "type": "text",
+     "text": "What is your question?",
+     "prompt": "text"
+  },
+  {
+    "name": "rootMenu",
+    "type": "prompt",
+    "prompt": "choice",
+    "isMenu": "true",
+    "variable": "dialog.choice",
+    "text": "Choose an option:",
+    "options": [
+      { "tag": "flipCoinDialog", "text": "Flip A Coin" },
+      { "tag": "rollDiceDialog", "text": "Roll Dice" },
+      { "tag": "magicBallDialog", "text": "Magic 8-Ball" },
+      { "tag": "endDialog", "text": "Quit" }
+    ]
+  }
+]

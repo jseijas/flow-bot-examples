@@ -1,0 +1,36 @@
+{
+  "name": "flow-bot-samples",
+  "version": "1.0.0",
+  "description": "Samples of the Flow Bot Framework",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests/**/*.js",
+    "lint": "eslint src/**",
+    "start": "node ."
+  },
+  "author": {
+    "email": "jseijas@gmail.com",
+    "name": "Jesus Seijas",
+    "url": "https://github.com/jseijas"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jseijas/flow-bot-samples/issues"
+  },
+  "maintainers": [
+    {
+      "email": "jseijas@gmail.com",
+      "name": "jseijas"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jseijas/flow-bot-samples.git"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "flow-bot": "^1.0.5",
+    "inquirer": "^3.0.6",
+    "restify": "^4.3.0"
+  }
+}

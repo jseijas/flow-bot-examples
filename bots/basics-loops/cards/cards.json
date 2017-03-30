@@ -1,0 +1,14 @@
+[
+  {
+    "name": "question",
+    "type": "text",
+    "text": "{{ question.prompt }}",
+    "prompt": "text",
+    "variable": "user.{{ question.field }}"
+  },
+  {
+    "name": "answer",
+    "type": "text",
+    "text": "Tanks {{ user.name }}... You're {{ user.age }} and located in {{ user.state }}."
+  }
+]

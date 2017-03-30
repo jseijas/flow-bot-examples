@@ -1,0 +1,5 @@
+/ -> hello, /rootMenu, goodbye
+/rootMenu*
+/flipCoinDialog -> flipCoin, flipcoin()
+/rollDiceDialog -> rollDice, rolldice()
+/magicBallDialog -> magicBall, magicball()

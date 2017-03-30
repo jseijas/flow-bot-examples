@@ -1,0 +1,2 @@
+/ -> initializequestions(), /q&aDialog, answer
+/q&aDialog* -> getquestion(), question

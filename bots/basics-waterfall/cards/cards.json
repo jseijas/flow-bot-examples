@@ -1,0 +1,29 @@
+[
+  {
+    "name": "askname",
+    "type": "text",
+    "text": "Hello... What's your name?",
+    "prompt": "text",
+    "variable": "dialog.name"
+  },
+  {
+    "name": "askyears",
+    "type": "text",
+    "text": "Hi {{ dialog.name }}, How many years have you been coding?",
+    "prompt": "number",
+    "variable": "dialog.years"
+  },
+  {
+    "name": "asklanguage",
+    "type": "text",
+    "text": "What language do you code Node using?",
+    "prompt": "choice",
+    "variable": "dialog.language",
+    "options": "Javascript|CoffeScript|TypeScript"
+  },
+  { 
+    "name": "finalanswer",
+    "type": "text",
+    "text": "Got it... {{ dialog.name }} you've been programming for {{ dialog.years }} years an use {{ dialog.language }}."
+  }
+]

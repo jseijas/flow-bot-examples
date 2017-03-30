@@ -1,0 +1,7 @@
+[
+  {
+    "name": "replay",
+    "type": "text",
+    "text": "You said {{ message.text }}"
+  } 
+]
