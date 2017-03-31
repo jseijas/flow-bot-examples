@@ -6,7 +6,8 @@ var choices = [
   'hello-ChatConnector', 
   'basics-waterfall', 
   'basics-loops', 
-  'basics-menus'
+  'basics-menus',
+  'basics-naturalLanguage'
 ];
 
 var server = restify.createServer();

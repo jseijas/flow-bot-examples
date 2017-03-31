@@ -1,0 +1,12 @@
+[
+  {
+    "name": "hello",
+    "type": "text",
+    "text": "Hi... I'm the alarm bot sample. I can set new alarms or delete existing ones."
+  },
+  {
+    "name": "setAlarm",
+    "type": "text",
+    "text": "Alarm setted."
+  }
+]
