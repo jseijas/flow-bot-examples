@@ -1,3 +1,0 @@
-set BOT_APP_ID=73467dfe-a0fa-42e7-8d20-867106f0fdb8
-set BOT_APP_PASSWORD=YdMQAPYDjY1fqf2GMSxcEtd
-npm start
