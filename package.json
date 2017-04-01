@@ -29,7 +29,7 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "flow-bot": "^1.0.5",
+    "flow-bot": "^1.0.6",
     "inquirer": "^3.0.6",
     "restify": "^4.3.0"
   }

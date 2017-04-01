@@ -5,8 +5,28 @@
     "text": "Hi... I'm the alarm bot sample. I can set new alarms or delete existing ones."
   },
   {
-    "name": "setAlarm",
+    "name": "askAlarmTitle",
     "type": "text",
-    "text": "Alarm setted."
+    "text": "What would you like to call your alarm?",
+    "prompt": "text",
+    "variable": "dialog.title"
+  },
+  {
+    "name": "askAlarmTime",
+    "type": "text",
+    "text": "What time would you like to set the alarm for?",
+    "prompt": "text",
+    "variable": "dialog.time"
+  },
+  {
+    "name": "showAlarm",
+    "type": "text",
+    "text": "Creating alarm name \"{{ dialog.alarmName }}\" for {{ dialog.alarmTime }}"
+  },
+  {
+    "name": "alarmDeleted",
+    "type": "text",
+    "text": "Alarm {{ dialog.alarmName }} deleted"
   }
 ]
+

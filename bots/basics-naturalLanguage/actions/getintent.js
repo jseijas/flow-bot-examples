@@ -1,9 +1,14 @@
 module.exports = function(session, args, next) {
-  console.log('IM IN THE GET INTENT');
-  // session.userData.currentQuestion++;
-  // if (session.userData.currentQuestion >= session.userData.questions.length) {
-  //   return session.endDialog();
-  // }
-  // session.dialogData.view.question = session.userData.questions[session.userData.currentQuestion];
-  return next();  
+  var intent = session.dialogData.args.intent;
+  var title = this.findEntity(intent, 'builtin.alarm.title');
+  var time = this.resolveTime(intent);
+  var alarm = session.dialogData.alarm = {
+    title: title ? title.entity : null,
+    timestamp: time ? time.getTime() : null
+  }
+  if (!alarm.title) {
+    this.sendCard('askAlarmTitle', session, {}, next);
+  } else {
+    return next();  
+  }
 };
