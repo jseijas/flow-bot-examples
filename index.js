@@ -8,7 +8,8 @@ var choices = [
   'basics-waterfall', 
   'basics-loops', 
   'basics-menus',
-  'basics-naturalLanguage'
+  'basics-naturalLanguage',
+  'basics-firstRun'
 ];
 
 inquirer.prompt([

@@ -1,0 +1,29 @@
+[
+  {
+    "name": "hello",
+    "type": "text",
+    "text": "{{ user.name }}, I heard: {{ message.text }}"
+  },
+  {
+    "name": "instructions",
+    "type": "text",
+    "text": "Say 'help' or something else..."
+  },
+  {
+    "name": "help",
+    "type": "text",
+    "text": "I'm a simple echo bot."
+  },
+  {
+    "name": "askName",
+    "type": "text",
+    "text": "Hello... What's your name?",
+    "prompt": "text",
+    "variable": "user.name"
+  },
+  {
+    "name": "sayName",
+    "type": "text",
+    "text": "Hi {{ user.name  }}, say something to me and I'll echo it back."
+  }
+]
