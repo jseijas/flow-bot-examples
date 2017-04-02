@@ -1,0 +1,3 @@
+/ -> hello
+/logon -> setlogon(), showLogStateOn
+/logoff -> setlogoff(), showLogStateOff

@@ -9,7 +9,8 @@ var choices = [
   'basics-loops', 
   'basics-menus',
   'basics-naturalLanguage',
-  'basics-firstRun'
+  'basics-firstRun',
+  'basics-logging'
 ];
 
 inquirer.prompt([

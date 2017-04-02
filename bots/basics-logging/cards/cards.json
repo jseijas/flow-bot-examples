@@ -1,0 +1,17 @@
+[
+  {
+    "name": "hello",
+    "type": "text",
+    "text": "Tell me about it..."
+  },
+  {
+    "name": "showLogStateOn",
+    "type": "text",
+    "text": "Logging is now turned on"
+  },
+  {
+    "name": "showLogStateOff",
+    "type": "text",
+    "text": "Logging is now turned off"
+  }
+]
