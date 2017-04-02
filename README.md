@@ -4,6 +4,8 @@ Examples of the Flow Bot framework.
 The examples are taken from the Microsoft Botbuilder Examples, and translated to Flow-Bot style. 
 The Microsoft sources can be found at https://github.com/Microsoft/BotBuilder/tree/master/Node/examples
 
+The information about Flow Bot Framework can be located at https://github.com/jseijas/flow-bot
+
 ## Overview
 The examples are organized into groups and designed to illustrate the techniques needed to build great bots.
 To use the samples clone the GitHub repository using Git.
