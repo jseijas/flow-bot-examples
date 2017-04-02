@@ -46,6 +46,6 @@ These examples show the basic techniques needed to build a great bot.
 | **Microsoft source** | **Description**                               
 | ---------------------|----------------------------------------------
 |[basics-waterfall](https://github.com/Microsoft/BotBuilder/tree/master/Node/examples/basics-waterfall) | Shows how to use a waterfall to prompt the user with a series of questions.
-|basics-waterfall[basics-loops](https://github.com/Microsoft/BotBuilder/tree/master/Node/examples/basics-loops) | Shows how to use session.replaceDialog() to create loops. 
+|[basics-loops](https://github.com/Microsoft/BotBuilder/tree/master/Node/examples/basics-loops) | Shows how to use session.replaceDialog() to create loops. 
 |[basics-menus](https://github.com/Microsoft/BotBuilder/tree/master/Node/examples/basics-menus) | Shows how to create a simple menu system for a bot. 
 |[basics-naturalLanguage](https://github.com/Microsoft/BotBuilder/tree/master/Node/examples/basics-naturalLanguage) | Shows how to use a LuisDialog to add natural language support to a bot.
