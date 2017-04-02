@@ -1,7 +1,7 @@
 {
-  "name": "flow-bot-samples",
+  "name": "flow-bot-examples",
   "version": "1.0.0",
-  "description": "Samples of the Flow Bot Framework",
+  "description": "Examples of the Flow Bot Framework",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha tests/**/*.js",
@@ -15,7 +15,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jseijas/flow-bot-samples/issues"
+    "url": "https://github.com/jseijas/flow-bot-examples/issues"
   },
   "maintainers": [
     {
@@ -25,11 +25,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jseijas/flow-bot-samples.git"
+    "url": "git+https://github.com/jseijas/flow-bot-examples.git"
   },
   "devDependencies": {},
   "dependencies": {
-    "flow-bot": "^1.0.6",
+    "flow-bot": "^1.0.7",
     "inquirer": "^3.0.6",
     "restify": "^4.3.0"
   }
